@@ -1,25 +1,27 @@
-# PPE-Voliation-Detection
-PPE Violation Detection System
-Project Overview
+# PPE-Violation-Detection  
+
+![Python](https://img.shields.io/badge/Python-3.x-green)  
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
+![Type](https://img.shields.io/badge/Type-Real--Time-blue)  
+![Progress](https://img.shields.io/badge/Completion-Done-yellow)
+
+##  Project Overview
 A lightweight, real-time system that analyzes video feeds to verify whether workers wear essential Personal Protective Equipment (PPE). Uses YOLO object detection to identify people and safety gear, then flags and logs any missing items.
 
-Key Features
-Real-time helmet and jacket compliance checks
+##  Key Features
+- Real-time helmet and jacket compliance checks  
+- Multi-person tracking with unique IDs  
+- Automated Excel/JSON violation reports  
+- Color-coded on-screen alerts: **Green = compliant, Red = violation**  
+- Configurable confidence thresholds for each PPE item  
 
-Multi-person tracking with unique IDs
-
-Automated Excel/JSON violation reports
-
-Color-coded on-screen alerts (Green = compliant, Red = violation)
-
-Configurable confidence thresholds for each PPE item
-
-Technology Stack
-Object Detection: YOLOv8 (Ultralytics)
-Video Processing: OpenCV
-Data Handling: Pandas, NumPy
-Audio Alerts: Pygame
-Languages & Tools: Python 3.x, Excel (openpyxl)
+##  Technology Stack
+- **Object Detection:** YOLOv8 (Ultralytics)  
+- **Video Processing:** OpenCV  
+- **Data Handling:** Pandas, NumPy  
+- **Audio Alerts:** Pygame  
+- **Languages & Tools:** Python 3.x, Excel (openpyxl)
+- # PPE-Voliation-Detection
 
 ![image](https://github.com/user-attachments/assets/da9d7fad-24d6-4f98-a481-eb19a7b7cd94)
 ![image](https://github.com/user-attachments/assets/d6bec69f-9597-414f-947b-11dc395f0f50)
