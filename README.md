@@ -1,9 +1,6 @@
 # PPE-Violation-Detection  
 
-![Python](https://img.shields.io/badge/Python-3.x-green)  
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)  
-![Type](https://img.shields.io/badge/Type-Real--Time-blue)  
-![Progress](https://img.shields.io/badge/Completion-Done-yellow)
+![Python](https://img.shields.io/badge/Python-3.x-green)  ![Status](https://img.shields.io/badge/Status-Active-brightgreen)  ![Type](https://img.shields.io/badge/Type-Real--Time-blue)  ![Progress](https://img.shields.io/badge/Completion-Done-yellow)
 
 ##  Project Overview
 A lightweight, real-time system that analyzes video feeds to verify whether workers wear essential Personal Protective Equipment (PPE). Uses YOLO object detection to identify people and safety gear, then flags and logs any missing items.
